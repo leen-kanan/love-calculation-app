@@ -13,7 +13,7 @@ function App() {
       (name1 === "leen" && name2 === "moe") ||
       (name1 === "moe" && name2 === "leen")
     ) {
-      setResults(name1 + " and " + name2 + " = " + 100 + "%" + " of love ❤️");
+      setResults(`${name1} and ${name2} = 100 % of love ❤️`);
     } else {
       const nameLength1 = name1.length;
       const nameLength2 = name2.length;
@@ -24,7 +24,7 @@ function App() {
           100
       );
 
-      setResults(name1 + " and " + name2 + " = " + results + "%");
+      setResults(`${name1} and ${name2} = ${results}%`);
     }
   };
 
